@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+header {
+    background-image: url(images/bg-header-desktop.png);
+    text-align: center;
+    background-size: cover;
+    text-align:bottom;
+}
+button{
+ width: 13%;
+ padding: 10px;
+ border-radius: 20px;
+ cursor: pointer;
+ margin-left: 10px;
+ border: 10px;
+ color: white;
+}
+p{
+    opacity: 30%;
+}
+h1 , h2 {
+    opacity: 60%;
+}
+.but1{
+    background-color:#27BBA4;
+}
+.but2 {
+    background-color: rgb(138, 133, 228);
+}
+.one {
+    border: solid;
+    width:620px;
+    margin:auto
+}
+.two {
+ display: flex;
+ justify-content: center;
+}
+.five {
+    display: flex;
+    justify-content: center;
+}
+.six {
+    display: flex;
+    justify-content: space-around;
+}
+.computer {
+    border: solid;
+}
+.pied {
+    display: flex;
+    justify-content: space-around;
+}
+.seven {
+    margin: auto;
+    width: 700px;
+    border:solid;
+    margin-top: 100px;
+}
+.trois {
+   margin-top: 100px;
+    border: solid;
+    width: 500px;
+    font-size: 14px;
+}
+.three{
+    text-align: left;
+}
+
+footer{
+    background: #e1e3e2;
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        font-size: 18px;
+        width: 1440px;
+      
+    }
+     
+    .h1{
+      font-size: 33px;  
+    } 
+    
+    #logo1{
+        width: 100px;
+        margin-top: 100px;
+    }
+    .header {
+        border: solid;
+        width: 620px;
+        margin: auto;
+    }
+   #computer1{
+    width: 700px;
+    margin-right: 200px;
+   }
+   .button1 {
+    margin-top: 20px;
+   }
+   .one {
+    width: 700px;
+   }
+   .three {
+   margin-top: 100px;
+   }
+   .five1{
+    width: 400px;
+    font-size: 18px;
+   }
+   .five2{
+    font-size: 18px;
+    width: 400px;
+   }
+   .five3{
+    font-size: 18px;
+    width: 400px;
+   }
+   .six{
+    border: solid;
+    width: 1440px;
+
+   }
+   #logo2{
+    width: 65px;
+   }
+   footer{
+    height: 200px;
+   }
+}
